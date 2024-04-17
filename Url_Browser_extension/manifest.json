@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Kavach -(Url Detector)",
+  "version": "3.0",
+  "icons": { 
+    "150": "Kavach_The_Sheild.png",
+    "100": "Kavach_The_Sheild.png",
+    "108": "Kavach_The_Sheild.png" 
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions":[
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.1.1.min.js","content.js"]
+    }
+ ]
+}

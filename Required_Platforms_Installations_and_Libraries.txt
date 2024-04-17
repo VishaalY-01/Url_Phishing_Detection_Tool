@@ -1,0 +1,20 @@
+Platform :-
+
+VS Code [ for code execution ]
+Android Studio [ for Application ]
+Node Js [ Installation required ]
+Python [ Python 3.11 version required ]
+Oracle Database 21C edition [ Installation required ]
+Sql developer [ Installation required ]
+
+Python Libraries :-
+
+tkinter
+requests
+cx_Oracle
+
+While loading the extension on the browser first make sure the Developer mode is ON and then do the load unpack.
+
+Maybe you will face some error while running in the above environment due to database connection or some other reason 
+
+So I am attaching a demo video of working of the app in the Android Virtual Device as a proof of working of my Application and as I am using Oracle database on local machine, it only works in the AVD.

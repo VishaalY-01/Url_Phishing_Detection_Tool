@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ContentPage">
+
+    <!-- CardView for ImageView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="74dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- ImageView inside CardView -->
+        <ImageView
+            android:id="@+id/ProfilePic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="OpenProfile"
+            android:src="@drawable/img_29" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="96dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="165dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_25" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:text="Welcome !!"
+        android:textColor="#000000"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="405dp"
+        android:layout_height="556dp"
+        android:background="@drawable/img_9"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="30sp"
+            android:background="@color/white" />
+
+        <ImageButton
+            android:id="@+id/UrlAnalysis"
+            android:layout_width="336dp"
+            android:layout_height="232dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20sp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_10" />
+
+        <ImageButton
+            android:id="@+id/UrlCheck"
+            android:layout_width="336dp"
+            android:layout_height="232dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_11" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

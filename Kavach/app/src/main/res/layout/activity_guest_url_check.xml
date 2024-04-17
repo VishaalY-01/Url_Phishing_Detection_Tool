@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UrlCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="381dp"
+            android:layout_height="82dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.005">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="34dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="16dp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/img_13" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="165dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/img_25" />
+
+            <ImageButton
+                android:id="@+id/GutLogin"
+                android:layout_width="77dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/img_26" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="418dp"
+            android:layout_height="822dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="330dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img_17" />
+
+            <EditText
+                android:id="@+id/Url_inp"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:fontFamily="@font/inria_sans"
+                android:gravity="center"
+                android:hint="Enter the Url"
+                android:inputType="text"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:id="@+id/Check_button"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/img_18" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="584dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/img_20" />
+
+            <Space
+                android:id="@+id/extraSpace"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
