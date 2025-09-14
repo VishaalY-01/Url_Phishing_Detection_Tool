@@ -12,9 +12,9 @@ Detect and Defend Against Phishing Instantly
 ### Desktop Views
 <table>
   <tr>
-    <td><img width="400" alt="Desktop View 1" src="https://github.com/user-attachments/assets/621ec9ab-2487-4d08-a916-898fc7de4123"></td>
-    <td><img width="400" alt="Desktop View 2" src="https://github.com/user-attachments/assets/744b5770-13d4-4d58-b6d5-f855d62d1483"></td>
-    <td><img width="400" alt="Desktop View 3" src="https://github.com/user-attachments/assets/0e974445-7b10-47bd-a0aa-9e184c4a20b5"></td>
+    <td><img height="700" alt="Desktop View 1" src="https://github.com/user-attachments/assets/621ec9ab-2487-4d08-a916-898fc7de4123"></td>
+    <td><img height="700" alt="Desktop View 2" src="https://github.com/user-attachments/assets/744b5770-13d4-4d58-b6d5-f855d62d1483"></td>
+    <td><img height="700" alt="Desktop View 3" src="https://github.com/user-attachments/assets/0e974445-7b10-47bd-a0aa-9e184c4a20b5"></td>
   </tr>
 </table>
 
